@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+/* .conteiner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+} */
+.beauty{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+.fragrances{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+.furniture{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+.groceries{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+.conteiner .item{
+  width: 23%;
+  height: 700px;
+  padding: 10px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 0 1px black;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.conteiner .item img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.conteiner .item .txt{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.conteiner .item .category{
+  color: blue;
+  font-size: 18px;
+}
+.conteiner .item .description{
+  font-size: 19px;
+}
+.conteiner .item .brand{
+  font-size: 18px;
+  color: lightcoral;
+}
+.conteiner .item .heartI{
+  font-size: 28px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+  color: rgba(255, 0, 0, 0.116);
+  cursor: pointer;
+}
+.conteiner .item .color{
+  color: rgb(0, 213, 255);
+}
+.conteiner .item .Btn1{
+  border: none;
+  font-size: 18px;
+  padding: 17px 20px;
+  border-radius: 20px;
+  background-color: rgb(51, 26, 211);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.conteiner .item .Btn2{
+  width: 55%;
+  border: none;
+  font-size: 18px;
+  padding: 17px 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(51, 26, 211);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid  rgb(51, 26, 211);
+ 
+}
+.conteiner .item .Btn3{
+  width: 25%;
+  border: none;
+  font-size: 18px;
+  padding: 17px 20px;
+  border-radius: 10px;
+  background-color: rgb(51, 26, 211);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  /* border: 1px solid  rgb(51, 26, 211); */
+ 
+}
+.PArviz{
+  width: 70px;
+  height: 70px;
+  background-color: #979797;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PArviz i{
+  font-size: 30px;
+  color: rgb(0, 8, 153);
+}
+.PArviz .PPPP{
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: none;
+}
